@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 7217533123873935808}
   - component: {fileID: 4371282112236487222}
   - component: {fileID: 7116346896116407109}
+  - component: {fileID: 7079482154216773530}
   m_Layer: 5
   m_Name: Facebook Button
   m_TagString: Untagged
@@ -240,6 +241,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7079482154216773530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491006637434216639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43fe61801c48404399d229fc008b0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &2742575138401240390
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,17 +363,15 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
-  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -703,6 +716,7 @@ GameObject:
   - component: {fileID: 8582333272229637192}
   - component: {fileID: 5028371659719729209}
   - component: {fileID: 3679554246123551761}
+  - component: {fileID: 1440177257560560713}
   m_Layer: 5
   m_Name: Shop Button
   m_TagString: Untagged
@@ -811,6 +825,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1440177257560560713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540074070428165381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43fe61801c48404399d229fc008b0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &4876996219008373525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,6 +1055,7 @@ GameObject:
   - component: {fileID: 1946039672534424881}
   - component: {fileID: 7845030026129826419}
   - component: {fileID: 7056221225515524104}
+  - component: {fileID: 7258767773839883515}
   m_Layer: 5
   m_Name: Settings Button
   m_TagString: Untagged
@@ -1135,3 +1164,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7258767773839883515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8997379797966620491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43fe61801c48404399d229fc008b0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
