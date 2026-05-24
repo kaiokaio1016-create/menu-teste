@@ -53,6 +53,7 @@ namespace Screens
         private void HideObjects()
         {
             listOfObjects.ForEach(i => i.gameObject.SetActive(false));
+            uiBackground.enabled = true;
         }
 
         private void ShowObjects()

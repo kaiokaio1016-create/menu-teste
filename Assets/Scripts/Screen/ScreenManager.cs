@@ -13,11 +13,6 @@ namespace Screens
 
         private ScreenBase _currentScreen;
 
-        private void Awake()
-        {
-            // Método herdado ou reservado para inicialização do Singleton
-        }
-
         private void Start()
         {
             HideAll();
