@@ -39,6 +39,7 @@ namespace Screens
         [Button]
         public virtual void Show()
         {
+            this.gameObject.SetActive(true);
             ShowObjects();
             Debug.Log("Show");
         }
@@ -53,7 +54,7 @@ namespace Screens
         private void HideObjects()
         {
             listOfObjects.ForEach(i => i.gameObject.SetActive(false));
-            uiBackground.enabled = true;
+            uiBackground.enabled = false; // <- Mude para false aqui!
         }
 
         private void ShowObjects()
